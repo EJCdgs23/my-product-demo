@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>SUSHI & SEAFOOD RESTO'S</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="image/my logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCTS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contacts.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>100% Sushi & Seafood Made</h1>
+</section>
+<!---------------blog------------->
+<section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="image/sushi roll.jpg">
+        <h2>Our Trendy Sushi & Seafood's</h2>
+        <p>“Sushi and Seafood Resto's is the result of a long family legacy of culinary appreciation.”<i> “Grandma and Grandpa Ouy established businesses in the Philippines, Japan, and India in the late 1950s.”</p>
+        <br>
+        <p>They diligently offered Japanies favorites like chop suey after fleeing the Philippines with two years to feed their visitors, but they also introduced "shu "sea or fish-shrimp style cooking and other regional cuisines to their guests.</p>
+        <br>
+        <p>The dining experience included thumping gongs, females dressed in Saya costumes, and enormous format feasts. Their eatery was well-known and involved in the neighborhood. </p>
+        <br>
+        <p>S Grandma Ouy was described as a "dynamic, tireless, completely delightful lady boss" by Gotham Guide. </p>
+        <br>
+        <p>They made a life for themselves and their children; we would do the same.</p>
+
+
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                
+            </form>
+            
+
+        </div>
+
+    </div>
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Seafood Salad</span>
+            <span>150</span>
+        </div>
+        <div>
+            <span>Makizushi</span>
+            <span>50</span>
+        </div>
+        <div>
+            <span>Goan Crab Curry</span>
+            <span>90</span>
+        </div>
+        <div>
+            <span>Shrimps Tempura</span>
+            <span>60</span>
+            <span></span>
+        </div>
+        <div>
+            <span>Tamago and Tako</span>
+            <span></span>
+            <span>50</span>
+        </div>
+    </div>
+  </div> 
+
+</section>
+
+<!---------footer---->
+
+<section class="footer">
+ <h4>About US</h4>
+    <p>Our Sushi & Seafood Resto's attempts to use local, sustainable, and organic ingredients wherever feasible. We work hard to find high-quality ingredients and prepare everything from scratch with care.<br>We also make every effort to give our employees a livable salary (tips are distributed to all employees, including kitchen staff) and to minimise our environmental impact whenever possible. Overall, these issues result in increased menu pricing, but we hope you discover value and find comfort in knowing that we strive to do better every day at what is essential to us.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By EzraJohn Cabudol </p>
+    
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------JAVASCRIPT for toggle menu------------>
+<script >
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+        
+    
+</script>
+
+
+    </body>
+
+    </html>
